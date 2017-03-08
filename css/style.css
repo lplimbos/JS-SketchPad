@@ -1,8 +1,25 @@
-#spacer{
+#controls{
 	display: block;
 	height: 200px;
-	width: 100%;
+	width: 700px;
 	margin: 0 auto;
+	position: relative;
+}
+
+#clearButton{
+	display:block;
+	position: absolute;
+	width: 50px; height: 20px;
+	bottom: 10px;
+	right: 0;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+
+#clearButton p{
+	margin: 0 0;
 }
 
 #canvas{
@@ -20,6 +37,5 @@
 
 .block{
 	display: inline-block;
-	width: 24px; height: 100%;
 }
 
