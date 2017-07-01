@@ -1,21 +1,88 @@
-#controls{
-	display: block;
-	height: 200px;
-	width: 700px;
-	margin: 0 auto;
-	position: relative;
+body{
+	background-color: #F3F3F3;
 }
 
-#clearButton{
+#controls{
+	display: block;
+	height: 100px; width: 800px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #F3F3F3;
+	color: #3F3F3F;
+}
+
+#rainbowButton{	
 	display:block;
 	position: absolute;
-	width: 50px; height: 20px;
+	width: 90px; height: 25px;
+	padding-top: 5px;
 	bottom: 10px;
-	right: 0;
+	left: 5px;
 	text-align: center;
-	border-style: solid;
-	border-width: 1px;
-	border-color: grey;
+	color: #3F3F3F;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	background-color: #F9F9F9;
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+	border-radius: 3px;
+}
+
+/*#rainbowButton:hover{
+	cursor: pointer;
+	background-color: #F9F9F9;
+}*/
+
+#rainbowButton p{
+	margin: 0 0;
+}
+
+#sizeField{
+	display: block;
+	position: absolute;
+	width: 68px; height: 25px;
+	padding-top: 5px;
+	bottom: 12px;
+	right: 80px;
+}
+
+#sizeField p{
+	float: left;
+	margin: 0;
+	padding: 5px 3px 0 0;
+}
+
+.size{
+	width: 32px; height: 25px;
+	border-style: none;
+	border-color: none;
+	border-radius: 3px;
+	border-width: 0;
+	background-color: #FFFFFF;
+	text-align: center;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#clearButton{	
+	display:block;
+	position: absolute;
+	width: 70px; height: 25px;
+	padding-top: 5px;
+	bottom: 10px;
+	right: 5px;
+	text-align: center;
+	color: #3F3F3F;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	background-color: #FFFFFF;
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+	border-radius: 3px;
+}
+
+#clearButton:hover{
+	cursor: pointer;
+	background-color: #CBCBCB;
 }
 
 #clearButton p{
@@ -28,6 +95,7 @@
 	border-style: solid;
 	border-width: 1px;
 	border-color: grey;
+	background-color: #FFFFFF;
 }
 
 .rowContainer{
